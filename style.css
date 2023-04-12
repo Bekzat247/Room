@@ -1,0 +1,842 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menuBurger {
+    display: none;
+
+
+}
+
+.menuBurger img {
+    width: 50px;
+}
+
+.main {
+    height: 100vh;
+}
+
+header {
+    height: 10%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header .container>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+header a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 16px 57px;
+    height: 90%;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+}
+
+.textDesign {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 82px;
+    margin-bottom: 208px;
+}
+
+.textDesign h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1A1A1A;
+    width: 35%;
+}
+
+.textDesign p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #AAAAAA;
+    width: 50%;
+}
+
+.roomsDesign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.room {
+    width: 49%;
+}
+
+.room img {
+    width: 100%;
+}
+
+.brands {
+    margin-top: 244px;
+    margin-bottom: 190px;
+    /* height: 327px; */
+}
+
+.brandsText h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.brandsText p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #4A4A4A;
+
+}
+
+.logobrands {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 125px;
+    height: 327px;
+}
+
+.logobrands div {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.slade {
+    height: 736px;
+    background-image: url(./images/Frame.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slade .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: center;
+    height: 736px;
+}
+
+.slade>img {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.info {
+    height: 700px;
+    margin-top: 120px;
+}
+
+.info .container {
+    height: 100%;
+}
+
+.info h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #1A1A1A;
+}
+
+.info-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #46856E;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.isntruc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.isntruc h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1A1A1A;
+    width: 160px;
+    height: 24px;
+    margin: 20px 0;
+}
+
+.isntruc p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+
+.isntruc div {
+    width: 30%;
+    align-items: center;
+}
+
+.woman {
+    /* margin-bottom: 240px; */
+    width: 100%;
+    margin-bottom: 240px;
+}
+
+.woman .container {
+    background-image: url(./images/Rectangle.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding: 120px 195px;
+}
+
+.review {
+    margin-bottom: 40px;
+}
+
+.review p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    color: #FFFFFF;
+    margin-top: 14PX;
+}
+
+.woman .container>a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    /* identical to box height, or 75% */
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    
+    color: #AAAAAA;
+}
+
+.text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+   
+    color: #000000;
+}
+
+.textwork .container {
+    width: 60%;
+}
+
+.plus {
+    height: 275vh;
+    margin-top: 130px;
+}
+
+.plus h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+}
+
+.plus p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+
+}
+
+.work1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.work1 div {
+    width: 350px;
+    margin-right: 10%;
+}
+
+
+.just {
+    height: 986px;
+    width: 100%;
+}
+
+.just img {
+    width: 100%;
+}
+
+.tarif .container {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    height: 465px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarif {
+    height: 544px;
+    margin-bottom: 10px;
+}
+
+.tarif .container h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 71px;
+}
+
+.tarif .container div {
+    margin-bottom: 65px;
+}
+
+.tarif .container button {
+    width: 146px;
+    height: 50px;
+    background-color: #46856E;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.tarif .container p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #AAAAAA;
+}
+
+/* .end {
+    height: 619px;
+    background-color: #2b2b2b;
+}
+
+.end p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+
+}
+
+.end .container div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 122px;
+}
+
+.info2 img {
+    width: 20px;
+}
+
+.info2 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text7 {
+    width: 327px;
+    height: 54px;
+    background-color: #2b2b2b;
+    border: 1px solid white;
+    color: white;
+}
+
+.info1 select {
+    width: 104px;
+    height: 21px;
+    background-color: #2b2b2b;
+    border: 0;
+    color: rgba(255, 255, 255, 0.501);
+}
+
+.info1 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    width: 369px;
+    height: 78px;
+}
+
+.checkbox {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.class {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info1 button {
+    border: 0;
+    background-color: #2b2b2b;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: right;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.lastimg {
+    margin-left: 1390px;
+}
+
+.definetlyimg {
+    height: 87px;
+    width: 87px;
+} */
+.leftfoter {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-start;
+}
+
+.leftfoter>div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.end .container {
+    display: flex;
+}
+
+.end {
+    background-color: #2b2b2b;
+    height: 100vh;
+    padding-top: 97px;
+    padding-bottom: 70px;
+}
+
+.about,
+.showrooms,
+.support,
+.office {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#f1 {
+    display: flex;
+    margin: 0 70px;
+}
+
+.f2 {
+    display: flex;
+}
+
+.about,
+.support {
+    margin-bottom: 47px;
+}
+
+.end a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.rightfoter {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.rightfoter p {
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+    margin-bottom: 20px;
+}
+
+.imagesicon img {
+    margin-right: 10px;
+}
+
+.fidback {
+    display: flex;
+    flex-direction: column;
+}
+
+.outputtext {
+    background-color: #2b2b2b;
+    border: 1px solid rgba(255, 255, 255, 0.316);
+    width: 327px;
+    height: 54px;
+}
+
+.fidback select {
+    width: 104px;
+    height: 21px;
+    background-color: #2b2b2b;
+    border: 0;
+    color: rgba(255, 255, 255, 0.501);
+}
+
+.checkboxtext {
+    width: 369px;
+    height: 78px;
+    display: flex;
+    justify-content: space-around;
+    align-self: self-start;
+    margin-top: 56px;
+}
+
+.checkboxtext span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.checkboxtext input {
+    background-color: #2b2b2b;
+    color: #2b2b2b;
+    width: 28px;
+    height: 28px;
+
+}
+
+.fidback button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #2b2b2b;
+    border: 0;
+    width: 70;
+    height: 62;
+}
+
+.lastword {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    width: 180px;
+    height: 13px;
+    margin-left: 1405px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+@media (max-width: 576px) {
+    header .container div {
+        display: none;
+    }
+
+    .main {
+        height: fit-content;
+    }
+
+    .menuBurger {
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    main {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    .textDesign {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .textDesign h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .textDesign p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .roomsDesign {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .room {
+        width: 100%;
+    }
+
+    .brands {
+        margin-top: 80px;
+        height: 400px;
+    }
+
+    .logobrands {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 400px;
+        align-items: center;
+        gap: 8px;
+    }
+    .slade>img {
+        display: none;
+    }
+    .info .container> h1{
+        font-size: 30px;
+
+    }
+    .info .container>a{
+        font-size: 15px;
+    }
+    .info{
+        margin-top: 40px;
+    }
+    .isntruc{
+        flex-direction: column;
+        
+    }
+    .isntruc div{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .woman .container{
+        margin-top: 500px;
+        background-position: center;
+        width: 100%;
+        padding: 0 0;
+        
+        
+    }
+    .review{
+        width: 100%;
+    }
+    .woman{
+        margin-bottom: 120px;
+    }
+    .text1 , .text2{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .textwork .container{
+        width: 90%;
+    }
+    .work1{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #work2{
+        flex-direction: column-reverse;
+    }
+    .work1 div{
+        width: 200px;
+    }
+    .work1 img{
+        width: 400px;
+    }
+    .plus{
+        height: 200vh;
+    }
+    .just{
+        margin-top: 320px;
+        height: 300px;
+    }
+    .tarif .container div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarif{
+        height: 900px;
+    }
+    .tarif .container h1{
+        font-size: 30px;
+    }
+    .tarif .container{
+        height: 90%;
+    }
+    .rightfoter{
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+        margin-left: 100px;
+    }
+    .end .container{
+        flex-direction: column;
+        height: 800px;
+    } git 
+    .leftfoter{
+        margin-left: 90px;
+    }
+    .fidback{
+        margin-top: 20px;
+    }
+    .fidback button{
+        width: 100px;
+    }
+    .end{
+        height: 1200px;
+    }   
+    .lastword{
+        margin-left: 310px;
+        margin-top: 200px;
+    }
+}
