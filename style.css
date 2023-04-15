@@ -313,7 +313,9 @@ main img {
     color: #1A1A1A;
     margin-bottom: 20px;
 }
-
+#work2 div{
+    margin-left: 120px;
+}
 .plus p {
     font-family: 'Roboto';
     font-style: normal;
